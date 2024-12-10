@@ -2,7 +2,7 @@ from pystray import Icon, Menu, MenuItem
 from PIL import Image
 
 def create_tray(scheduler_stop_callback):
-    icon_image = Image.open("assets/icon.png")
+    icon_image = Image.open("assets/icon2.png")
 
     def on_quit(icon, item):
         print("Exiting the program")
